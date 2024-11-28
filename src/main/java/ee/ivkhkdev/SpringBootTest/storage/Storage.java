@@ -4,6 +4,6 @@ import ee.ivkhkdev.SpringBootTest.interfaces.AppRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public class Storage <T> implements AppRepository<T> {
-
+public class Storage<T> implements AppRepository<T> {
+    // Реализуйте хранение данных (например, в файле или базе данных)
 }

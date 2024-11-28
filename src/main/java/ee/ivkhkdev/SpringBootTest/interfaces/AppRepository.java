@@ -6,7 +6,7 @@ public interface AppRepository<T> {
 
     default boolean save(T t){
         List<T> ts = load();
-        if(ts == null){return false}
+        if(ts == null){return false;}
         ts.add(t);
         return saveAll(ts);
     };
